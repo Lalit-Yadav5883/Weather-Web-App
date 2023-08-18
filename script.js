@@ -31,6 +31,7 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+APIkey
         }
         error404.style.display="none";
         error404.classList.remove("fadeIn");
+        weatherBox.style.display="block";
 
         const img=document.querySelector(".weather-box img");
         const temperature=document.querySelector(".weather-box .temperature");
